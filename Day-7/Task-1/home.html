@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fashion Expo</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#">Home</a> || <a href="about.html">About Us</a> ||
+        <a href="contact.html">Contact US</a>
+      </nav>
+    </header>
+    <div>
+      <center>
+        <h1>Welcome to Fashion Expo!</h1>
+        <img
+          src="./assets/banner.jpg"
+          alt="Fashion Banner"
+          width="100%"
+          class="banner"
+        />
+      </center>
+    </div>
+    <hr />
+    <div>
+      <center>
+        <div class="apparel-items">
+          <table border="1">
+            <tr>
+              <th width="200px">Item</th>
+              <th>Item Picture</th>
+              <th width="200px">Price</th>
+            </tr>
+            <tr>
+              <td><center>Kiikii Original Shirt</center></td>
+              <td>
+                <img src="./assets/tshirt.jpg" alt="T-Shirt" width="200px" />
+              </td>
+              <td><center>₹1150</center></td>
+            </tr>
+            <tr>
+              <td><center>Nike Airs</center></td>
+              <td>
+                <img src="./assets/shoes.jpg" alt="Shoes" width="200px" />
+              </td>
+              <td><center>₹2200</center></td>
+            </tr>
+            <tr>
+              <td><center>Levi's Ripped Jeans</center></td>
+              <td>
+                <img src="./assets/jeans.jpg" alt="Jeans" width="200px" />
+              </td>
+              <td><center>₹999</center></td>
+            </tr>
+            <tr>
+              <td><center>Fort Collins Brown Jacket</center></td>
+              <td>
+                <img src="./assets/jacket.jpg" alt="Jacket" width="200px" />
+              </td>
+              <td><center>₹2450</center></td>
+            </tr>
+          </table>
+        </div>
+        <div id="apparel-form">
+          <h3>Which item do you want to have?</h3>
+          <form action="#">
+            <label for="item-name">Item name:</label>
+            <input type="text" name="item-name" id="item-name" />
+
+            <label for="brand-name">Brand name:</label>
+            <input type="text" name="brand-name" id="brand-name" />
+          </form>
+        </div>
+        <div class="audio-video">
+          <video width="300" height="200" controls autoplay>
+            <source src="./assets/foo.mp4" type="video/mp4" />
+          </video>
+          <audio controls autoplay>
+            <source src="./assets/audio.wav" type="audio/wav" />
+          </audio>
+        </div>
+      </center>
+    </div>
+  </body>
+</html>
