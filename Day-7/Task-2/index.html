@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Day 7 Task 2</title>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body>
+		<div class="jumbotron">
+			<h1 class="display-4">Hello, world!</h1>
+			<p class="lead">
+				This is a simple hero unit, a simple jumbotron-style component
+				for calling extra attention to featured content or information.
+			</p>
+			<hr class="my-4" />
+			<p>
+				It uses utility classes for typography and spacing to space
+				content out within the larger container.
+			</p>
+		</div>
+
+		<div class="container">
+			<div class="card" style="width: 18rem">
+				<img
+					class="card-img-top"
+					src="./Assets/coke.jpg"
+					alt="Card image cap"
+				/>
+				<div class="card-body">
+					<h5 class="card-title">Coca Cola</h5>
+					<p class="card-text">
+						Some quick example text to build on the card title and
+						make up the bulk of the card's content.
+					</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
+			<div class="card" style="width: 18rem">
+				<img
+					class="card-img-top"
+					src="./Assets/kfc.jpg"
+					alt="Card image cap"
+				/>
+				<div class="card-body">
+					<h5 class="card-title">Kentucky Fried Chicken</h5>
+					<p class="card-text">
+						Some quick example text to build on the card title and
+						make up the bulk of the card's content.
+					</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
+			<div class="card" style="width: 18rem">
+				<img
+					class="card-img-top"
+					src="./Assets/nike.jpg"
+					alt="Card image cap"
+				/>
+				<div class="card-body">
+					<h5 class="card-title">Nike</h5>
+					<p class="card-text">
+						Some quick example text to build on the card title and
+						make up the bulk of the card's content.
+					</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<h2>Click the button to get your coordinates.</h2>
+
+			<button onclick="getLocation()">Location</button>
+
+			<p id="demo"></p>
+		</div>
+
+		<div class="mt-5 container row mx-3">
+			<div class="map col-sm">
+				<iframe
+					src="https://maps.google.com/maps?q=lucknow&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+					frameborder="0"
+					scrolling="no"
+					style="width: 100%; height: 400px"
+				></iframe>
+			</div>
+			<form class="col-sm">
+				<h3 class="my-3">Contact Us</h3>
+				<div class="form-group">
+					<label for="exampleFormControlInput1">Email address</label>
+					<input
+						type="email"
+						class="form-control"
+						id="exampleFormControlInput1"
+						placeholder="name@example.com"
+					/>
+				</div>
+				<div class="form-group">
+					<label for="exampleFormControlInput1">Name</label>
+					<input
+						type="text"
+						class="form-control"
+						id="exampleFormControlInput1"
+						placeholder="Your Name"
+					/>
+				</div>
+				<div class="form-group">
+					<label for="exampleFormControlTextarea1"
+						>Please share your feedback with us:</label
+					>
+					<textarea
+						class="form-control"
+						id="exampleFormControlTextarea1"
+						rows="3"
+					></textarea>
+				</div>
+			</form>
+		</div>
+
+		<script>
+			var x = document.getElementById("demo");
+
+			function getLocation() {
+				if (navigator.geolocation) {
+					navigator.geolocation.getCurrentPosition(showPosition);
+				} else {
+					x.innerHTML =
+						"Geolocation is not supported by this browser.";
+				}
+			}
+
+			function showPosition(position) {
+				x.innerHTML =
+					"Latitude: " +
+					position.coords.latitude +
+					"<br>Longitude: " +
+					position.coords.longitude;
+			}
+		</script>
+
+		<script
+			src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
