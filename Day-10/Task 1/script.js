@@ -56,3 +56,18 @@ greetUser();
 setTimeout(function () {
 	console.log("This will trigger just after 5 seconds");
 }, 5000);
+
+// async/await
+async function greet() {
+	let promise = new Promise((resolve, reject) => {
+		setTimeout(
+			() => resolve("Good Afternoon, Devesh! Hope You're doing good"),
+			10000
+		);
+	});
+
+	let result = await promise;
+	console.log(result);
+}
+
+greet();
