@@ -1,0 +1,45 @@
+<div class="container my-5 text-center">
+  <h2>Contact Us</h2>
+  <div class="row my-3">
+    <div class="col">
+      <input type="radio" name="location" (click)="changeData(true)" checked />
+      Noida
+    </div>
+
+    <div class="col">
+      <input type="radio" name="location" (click)="changeData(false)" />
+      Hyderabad
+    </div>
+  </div>
+  <div class="mt-5" *ngIf="isNoida; then thenBlock; else elseBlock"></div>
+  <ng-template #thenBlock>
+    <div class="row" [ngStyle]="contactCard()">
+      <div class="col p-0">
+        <img src="assets/noida.jpg" alt="Noida City" />
+      </div>
+      <div class="col mx-auto my-auto">
+        <h4>Bhavna Software India (P) Ltd</h4>
+        <p>
+          10th Floor, Wing C, Logix Cyber Park, <br />
+          C 28-29, Sector 62, Noida <br />
+          Uttar Pradesh – 201301
+        </p>
+      </div>
+    </div>
+  </ng-template>
+  <ng-template #elseBlock>
+    <div class="row" [ngStyle]="contactCard()">
+      <div class="col p-0">
+        <img src="assets/hyderabad.jpg" alt="Hyderabad City" />
+      </div>
+      <div class="col mx-auto my-auto">
+        <h4>Bhavna Software India (P) Ltd</h4>
+        <p>
+          Smartworks – Raheja Mindspace, 1st Floor, Building No. 3A <br />
+          IT Park, Survey No. 64, HITEC City <br />
+          Madhapur, Hyderabad, Telangana - 500081
+        </p>
+      </div>
+    </div>
+  </ng-template>
+</div>
