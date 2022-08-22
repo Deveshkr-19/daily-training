@@ -1,0 +1,14 @@
+.card-img-overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding-top: 40px;
+}
+
+.card-img {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+}
