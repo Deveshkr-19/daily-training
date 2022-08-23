@@ -1,0 +1,92 @@
+<nav
+  class="navbar navbar-default navbar-offcanvas navbar-offcanvas-touch navbar-dark"
+  role="navigation"
+  id="js-bootstrap-offcanvas"
+>
+  <div class="container-fluid">
+    <button
+      class="navbar-toggler offcanvas-toggler"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasDarkNavbar"
+      aria-controls="offcanvasDarkNavbar"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div
+      class="offcanvas offcanvas-div container-fluid offcanvas-start text-bg-dark"
+      tabindex="-1"
+      id="offcanvasDarkNavbar"
+      aria-labelledby="offcanvasDarkNavbarLabel"
+    >
+      <div class="row ms-2">
+        <button
+          class="offcanvas-toggler navbar-toggler col my-auto"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas-header col">
+          <a class="navbar-brand me-auto" href="#">
+            <img src="assets/YouTube-icon.png" alt="YouTube" />YouTube</a
+          >
+        </div>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav flex-grow-1 row" *ngFor="let item of sidebar">
+          <div class="col-12 sidenav-links">
+            <li class="nav-item offcanvas-item">
+              <a
+                class="nav-link sidebar-link row d-flex"
+                aria-current="page"
+                href="#"
+              >
+                <div class="col-2 me-2"><i class="{{ item.Icon }}"></i></div>
+                <div class="col-8 ms-2">
+                  <span> {{ item.Title }}</span>
+                </div></a
+              >
+            </li>
+          </div>
+        </ul>
+      </div>
+    </div>
+
+    <a class="navbar-brand" href="#">
+      <img src="assets/YouTube-icon.png" alt="YouTube" />YouTube</a
+    >
+    <div class="search-bar">
+      <form class="d-flex search-form" role="search">
+        <div class="inp-search-icon px-3 text-light">
+          <i class="bi bi-search"></i>
+        </div>
+        <input
+          class="form-control search-field"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <button class="btn search-btn" type="submit">
+          <i class="bi bi-search"></i>
+        </button>
+        <button class="btn mic-btn d-none d-md-block">
+          <i class="bi bi-mic-fill"></i>
+        </button>
+      </form>
+    </div>
+    <ul class="navbar-nav ms-auto mb-0">
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="bi bi-camera-video"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="bi bi-bell"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="bi bi-person-circle"></i></a>
+      </li>
+    </ul>
+  </div>
+</nav>

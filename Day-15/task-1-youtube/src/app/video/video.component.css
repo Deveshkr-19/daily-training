@@ -1,0 +1,38 @@
+.card {
+  border-radius: 0;
+  background: none;
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
+
+.card-body {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.card-img-top {
+  border-radius: 0;
+}
+
+.vid-duration {
+  position: absolute;
+  bottom: 110px;
+  right: 10px;
+  background-color: black;
+  font-size: small;
+  padding: 0 5px;
+}
+
+.creator-thumb img {
+  width: 36px;
+  border-radius: 50%;
+}
+
+.card-title {
+  font-size: initial;
+}
+
+.card-text {
+  font-size: smaller;
+}

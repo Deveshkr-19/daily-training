@@ -1,0 +1,130 @@
+.navbar-dark {
+  background-color: #212121 !important;
+}
+
+.navbar-brand {
+  width: 120px;
+  letter-spacing: -1px;
+}
+
+.navbar-brand img {
+  width: 32px;
+}
+
+.inp-search-icon {
+  position: relative;
+  background-color: #181818;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #1c62b9;
+  border-right: 0;
+  visibility: hidden;
+  right: -2px;
+}
+
+.search-bar {
+  position: absolute;
+  left: 28%;
+  width: 45%;
+}
+
+.search-field,
+.search-btn {
+  border-radius: 3px;
+  padding: 5px 20px;
+  font-size: large;
+}
+
+.search-field {
+  background-color: #181818;
+  border: 1px solid #303030;
+  color: white;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  /* border-left: none; */
+}
+
+.search-field:focus {
+  box-shadow: none;
+  border: 1px solid #1c62b9;
+  border-left: none;
+}
+
+.search-form:focus-within .inp-search-icon {
+  visibility: visible;
+}
+
+.search-btn {
+  color: white;
+  background-color: #313131;
+  border: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.mic-btn {
+  color: white;
+  background-color: #181818;
+  margin-left: 10px;
+  font-size: large;
+  border: 0;
+  border-radius: 21px;
+}
+
+.navbar-nav {
+  font-size: x-large;
+  flex-direction: row !important;
+}
+
+.nav-link {
+  color: white;
+  padding: 0 8px;
+}
+
+.offcanvas-body {
+  padding-top: 0;
+  padding-left: 0;
+}
+
+.offcanvas-div {
+  width: 240px;
+  background-color: #212121;
+  padding-left: 0;
+}
+
+.offcanvas-header {
+  padding: 8px;
+}
+
+.offcanvas-toggler {
+  border: 0;
+  border-radius: 50%;
+  padding: 6px !important;
+  min-width: 42px !important;
+  max-width: 42px !important;
+  min-height: 42px !important;
+  max-height: 42px !important;
+}
+
+.offcanvas-toggler:focus {
+  box-shadow: none;
+}
+.offcanvas-toggler:active {
+  background-color: #383838;
+}
+
+.sidebar-link {
+  font-size: medium;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.sidenav-links {
+  padding-left: 30px;
+}
+
+.sidenav-links:hover {
+  background-color: #383838;
+}
