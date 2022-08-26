@@ -4,8 +4,9 @@ using System.Text;
 
 namespace Task_1
 {
-    public interface Icommon
+    public interface Iproducts
     {
-        public void showDetails();
+        public void getProd();
+        public void showProd();
     }
 }
