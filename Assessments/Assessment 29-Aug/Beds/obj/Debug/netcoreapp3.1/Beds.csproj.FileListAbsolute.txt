@@ -1,0 +1,10 @@
+C:\training\daily-training\Assessments\Assessment 29-Aug\Beds\bin\Debug\netcoreapp3.1\Beds.deps.json
+C:\training\daily-training\Assessments\Assessment 29-Aug\Beds\bin\Debug\netcoreapp3.1\Beds.dll
+C:\training\daily-training\Assessments\Assessment 29-Aug\Beds\bin\Debug\netcoreapp3.1\Beds.pdb
+C:\training\daily-training\Assessments\Assessment 29-Aug\Beds\obj\Debug\netcoreapp3.1\Beds.csproj.AssemblyReference.cache
+C:\training\daily-training\Assessments\Assessment 29-Aug\Beds\obj\Debug\netcoreapp3.1\Beds.GeneratedMSBuildEditorConfig.editorconfig
+C:\training\daily-training\Assessments\Assessment 29-Aug\Beds\obj\Debug\netcoreapp3.1\Beds.AssemblyInfoInputs.cache
+C:\training\daily-training\Assessments\Assessment 29-Aug\Beds\obj\Debug\netcoreapp3.1\Beds.AssemblyInfo.cs
+C:\training\daily-training\Assessments\Assessment 29-Aug\Beds\obj\Debug\netcoreapp3.1\Beds.csproj.CoreCompileInputs.cache
+C:\training\daily-training\Assessments\Assessment 29-Aug\Beds\obj\Debug\netcoreapp3.1\Beds.dll
+C:\training\daily-training\Assessments\Assessment 29-Aug\Beds\obj\Debug\netcoreapp3.1\Beds.pdb

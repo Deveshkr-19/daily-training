@@ -1,0 +1,13 @@
+C:\training\daily-training\Assessments\Assessment 29-Aug\Doctors\bin\Debug\netcoreapp3.1\Doctors.deps.json
+C:\training\daily-training\Assessments\Assessment 29-Aug\Doctors\bin\Debug\netcoreapp3.1\Doctors.dll
+C:\training\daily-training\Assessments\Assessment 29-Aug\Doctors\bin\Debug\netcoreapp3.1\Doctors.pdb
+C:\training\daily-training\Assessments\Assessment 29-Aug\Doctors\bin\Debug\netcoreapp3.1\Common.dll
+C:\training\daily-training\Assessments\Assessment 29-Aug\Doctors\bin\Debug\netcoreapp3.1\Common.pdb
+C:\training\daily-training\Assessments\Assessment 29-Aug\Doctors\obj\Debug\netcoreapp3.1\Doctors.csproj.AssemblyReference.cache
+C:\training\daily-training\Assessments\Assessment 29-Aug\Doctors\obj\Debug\netcoreapp3.1\Doctors.GeneratedMSBuildEditorConfig.editorconfig
+C:\training\daily-training\Assessments\Assessment 29-Aug\Doctors\obj\Debug\netcoreapp3.1\Doctors.AssemblyInfoInputs.cache
+C:\training\daily-training\Assessments\Assessment 29-Aug\Doctors\obj\Debug\netcoreapp3.1\Doctors.AssemblyInfo.cs
+C:\training\daily-training\Assessments\Assessment 29-Aug\Doctors\obj\Debug\netcoreapp3.1\Doctors.csproj.CoreCompileInputs.cache
+C:\training\daily-training\Assessments\Assessment 29-Aug\Doctors\obj\Debug\netcoreapp3.1\Doctors.csproj.CopyComplete
+C:\training\daily-training\Assessments\Assessment 29-Aug\Doctors\obj\Debug\netcoreapp3.1\Doctors.dll
+C:\training\daily-training\Assessments\Assessment 29-Aug\Doctors\obj\Debug\netcoreapp3.1\Doctors.pdb

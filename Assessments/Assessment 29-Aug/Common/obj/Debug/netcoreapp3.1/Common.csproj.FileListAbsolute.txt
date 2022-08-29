@@ -1,0 +1,10 @@
+C:\training\daily-training\Assessments\Assessment 29-Aug\Common\bin\Debug\netcoreapp3.1\Common.deps.json
+C:\training\daily-training\Assessments\Assessment 29-Aug\Common\bin\Debug\netcoreapp3.1\Common.dll
+C:\training\daily-training\Assessments\Assessment 29-Aug\Common\bin\Debug\netcoreapp3.1\Common.pdb
+C:\training\daily-training\Assessments\Assessment 29-Aug\Common\obj\Debug\netcoreapp3.1\Common.csproj.AssemblyReference.cache
+C:\training\daily-training\Assessments\Assessment 29-Aug\Common\obj\Debug\netcoreapp3.1\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\training\daily-training\Assessments\Assessment 29-Aug\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfoInputs.cache
+C:\training\daily-training\Assessments\Assessment 29-Aug\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfo.cs
+C:\training\daily-training\Assessments\Assessment 29-Aug\Common\obj\Debug\netcoreapp3.1\Common.csproj.CoreCompileInputs.cache
+C:\training\daily-training\Assessments\Assessment 29-Aug\Common\obj\Debug\netcoreapp3.1\Common.dll
+C:\training\daily-training\Assessments\Assessment 29-Aug\Common\obj\Debug\netcoreapp3.1\Common.pdb

@@ -66,7 +66,7 @@ namespace Task_1
 
             List<Student> stu = new List<Student>
             {
-                new Student { studID = 101, name = "Devesh", age = 23, standard = 9, mobile = "654324453" },
+                new Student { studID = int.Parse(Console.ReadLine()), name = "Devesh", age = 23, standard = 9, mobile = "654324453" },
                 new Student { studID = 102, name = "Diksha", age = 24, standard = 11, mobile = "665324453" },
                 new Student { studID = 103, name = "Deepak", age = 26, standard = 10, mobile = "654369853" },
                 new Student { studID = 104, name = "Deepesh", age = 21, standard = 9, mobile = "657234453" },
