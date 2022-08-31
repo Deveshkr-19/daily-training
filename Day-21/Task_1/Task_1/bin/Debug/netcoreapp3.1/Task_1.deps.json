@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Task_1/1.0.0": {
+        "dependencies": {
+          "PartialLib": "1.0.0"
+        },
+        "runtime": {
+          "Task_1.dll": {}
+        }
+      },
+      "PartialLib/1.0.0": {
+        "runtime": {
+          "PartialLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Task_1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PartialLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
