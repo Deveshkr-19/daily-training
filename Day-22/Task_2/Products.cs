@@ -16,7 +16,9 @@ namespace Task_2
         {
             if(qty > 20)
                 return true;
-            return false;
+
+            else
+                return false;
         }
     }
 }

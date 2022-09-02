@@ -148,6 +148,7 @@ Enter 5 to search for products whose quantity is greater than a 20:");
                                     break;
 
                                 default:
+                                    Console.WriteLine("Wrong choice");
 
                                     break;
                             }

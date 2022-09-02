@@ -1,0 +1,9 @@
+C:\training\daily-training\Day-23\AddClass\bin\Debug\netcoreapp3.1\AddClass.deps.json
+C:\training\daily-training\Day-23\AddClass\bin\Debug\netcoreapp3.1\AddClass.dll
+C:\training\daily-training\Day-23\AddClass\bin\Debug\netcoreapp3.1\AddClass.pdb
+C:\training\daily-training\Day-23\AddClass\obj\Debug\netcoreapp3.1\AddClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\training\daily-training\Day-23\AddClass\obj\Debug\netcoreapp3.1\AddClass.AssemblyInfoInputs.cache
+C:\training\daily-training\Day-23\AddClass\obj\Debug\netcoreapp3.1\AddClass.AssemblyInfo.cs
+C:\training\daily-training\Day-23\AddClass\obj\Debug\netcoreapp3.1\AddClass.csproj.CoreCompileInputs.cache
+C:\training\daily-training\Day-23\AddClass\obj\Debug\netcoreapp3.1\AddClass.dll
+C:\training\daily-training\Day-23\AddClass\obj\Debug\netcoreapp3.1\AddClass.pdb
