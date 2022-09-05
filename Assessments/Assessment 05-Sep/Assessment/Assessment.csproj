@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EmployeeCls\EmployeeCls.csproj" />
+    <ProjectReference Include="..\FranchiseCls\FranchiseCls.csproj" />
+    <ProjectReference Include="..\OrdersCls\OrdersCls.csproj" />
+    <ProjectReference Include="..\UsersCls\UsersCls.csproj" />
+  </ItemGroup>
+
+</Project>

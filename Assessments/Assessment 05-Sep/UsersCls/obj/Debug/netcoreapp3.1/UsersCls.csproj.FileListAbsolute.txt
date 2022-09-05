@@ -1,0 +1,10 @@
+C:\training\daily-training\Assessments\Assessment 05-Sep\UsersCls\bin\Debug\netcoreapp3.1\UsersCls.deps.json
+C:\training\daily-training\Assessments\Assessment 05-Sep\UsersCls\bin\Debug\netcoreapp3.1\UsersCls.dll
+C:\training\daily-training\Assessments\Assessment 05-Sep\UsersCls\bin\Debug\netcoreapp3.1\UsersCls.pdb
+C:\training\daily-training\Assessments\Assessment 05-Sep\UsersCls\obj\Debug\netcoreapp3.1\UsersCls.csproj.AssemblyReference.cache
+C:\training\daily-training\Assessments\Assessment 05-Sep\UsersCls\obj\Debug\netcoreapp3.1\UsersCls.GeneratedMSBuildEditorConfig.editorconfig
+C:\training\daily-training\Assessments\Assessment 05-Sep\UsersCls\obj\Debug\netcoreapp3.1\UsersCls.AssemblyInfoInputs.cache
+C:\training\daily-training\Assessments\Assessment 05-Sep\UsersCls\obj\Debug\netcoreapp3.1\UsersCls.AssemblyInfo.cs
+C:\training\daily-training\Assessments\Assessment 05-Sep\UsersCls\obj\Debug\netcoreapp3.1\UsersCls.csproj.CoreCompileInputs.cache
+C:\training\daily-training\Assessments\Assessment 05-Sep\UsersCls\obj\Debug\netcoreapp3.1\UsersCls.dll
+C:\training\daily-training\Assessments\Assessment 05-Sep\UsersCls\obj\Debug\netcoreapp3.1\UsersCls.pdb

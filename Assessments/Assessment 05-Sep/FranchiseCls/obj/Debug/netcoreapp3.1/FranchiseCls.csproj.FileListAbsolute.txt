@@ -1,0 +1,10 @@
+C:\training\daily-training\Assessments\Assessment 05-Sep\FranchiseCls\bin\Debug\netcoreapp3.1\FranchiseCls.deps.json
+C:\training\daily-training\Assessments\Assessment 05-Sep\FranchiseCls\bin\Debug\netcoreapp3.1\FranchiseCls.dll
+C:\training\daily-training\Assessments\Assessment 05-Sep\FranchiseCls\bin\Debug\netcoreapp3.1\FranchiseCls.pdb
+C:\training\daily-training\Assessments\Assessment 05-Sep\FranchiseCls\obj\Debug\netcoreapp3.1\FranchiseCls.csproj.AssemblyReference.cache
+C:\training\daily-training\Assessments\Assessment 05-Sep\FranchiseCls\obj\Debug\netcoreapp3.1\FranchiseCls.GeneratedMSBuildEditorConfig.editorconfig
+C:\training\daily-training\Assessments\Assessment 05-Sep\FranchiseCls\obj\Debug\netcoreapp3.1\FranchiseCls.AssemblyInfoInputs.cache
+C:\training\daily-training\Assessments\Assessment 05-Sep\FranchiseCls\obj\Debug\netcoreapp3.1\FranchiseCls.AssemblyInfo.cs
+C:\training\daily-training\Assessments\Assessment 05-Sep\FranchiseCls\obj\Debug\netcoreapp3.1\FranchiseCls.csproj.CoreCompileInputs.cache
+C:\training\daily-training\Assessments\Assessment 05-Sep\FranchiseCls\obj\Debug\netcoreapp3.1\FranchiseCls.dll
+C:\training\daily-training\Assessments\Assessment 05-Sep\FranchiseCls\obj\Debug\netcoreapp3.1\FranchiseCls.pdb
