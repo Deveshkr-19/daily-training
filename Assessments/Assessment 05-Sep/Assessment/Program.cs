@@ -27,7 +27,7 @@ namespace Assessment
             da.Fill(ds, "Login");
             int loginCount = ds.Tables["Login"].Rows.Count;
 
-            if(loginID == ds.Tables["Login"].Rows[0][0].ToString())
+            if(loginID == ds.Tables["Login"].Rows[0][0].ToString())         // Admin Login
             {
                 if (pass == ds.Tables["Login"].Rows[0][1].ToString())
                 {
@@ -55,7 +55,7 @@ namespace Assessment
                                 Console.WriteLine("Enter the location for the new franchise");
                                 franchise.location = Console.ReadLine();
 
-                                Console.WriteLine("Enter the area in sq. m. for the new franchise");
+                                Console.WriteLine("Enter the area in sq. ft. for the new franchise");
                                 franchise.area = int.Parse(Console.ReadLine());
 
                                 Console.WriteLine("Enter the email of the store manager for the new franchise");
@@ -206,7 +206,7 @@ namespace Assessment
             {
                 for(int i = 1; i < loginCount; i++)
                 {
-                    if(loginID == ds.Tables["Login"].Rows[i][0].ToString())
+                    if(loginID == ds.Tables["Login"].Rows[i][0].ToString())         // Franchise Login
                     {
                         if (pass == ds.Tables["Login"].Rows[i][1].ToString())
                         {

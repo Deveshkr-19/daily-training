@@ -1,0 +1,14 @@
+C:\training\daily-training\Day-25\ATM Task\bin\Debug\netcoreapp3.1\ATM Task.exe
+C:\training\daily-training\Day-25\ATM Task\bin\Debug\netcoreapp3.1\ATM Task.deps.json
+C:\training\daily-training\Day-25\ATM Task\bin\Debug\netcoreapp3.1\ATM Task.runtimeconfig.json
+C:\training\daily-training\Day-25\ATM Task\bin\Debug\netcoreapp3.1\ATM Task.runtimeconfig.dev.json
+C:\training\daily-training\Day-25\ATM Task\bin\Debug\netcoreapp3.1\ATM Task.dll
+C:\training\daily-training\Day-25\ATM Task\bin\Debug\netcoreapp3.1\ATM Task.pdb
+C:\training\daily-training\Day-25\ATM Task\obj\Debug\netcoreapp3.1\ATM Task.csproj.AssemblyReference.cache
+C:\training\daily-training\Day-25\ATM Task\obj\Debug\netcoreapp3.1\ATM Task.GeneratedMSBuildEditorConfig.editorconfig
+C:\training\daily-training\Day-25\ATM Task\obj\Debug\netcoreapp3.1\ATM Task.AssemblyInfoInputs.cache
+C:\training\daily-training\Day-25\ATM Task\obj\Debug\netcoreapp3.1\ATM Task.AssemblyInfo.cs
+C:\training\daily-training\Day-25\ATM Task\obj\Debug\netcoreapp3.1\ATM Task.csproj.CoreCompileInputs.cache
+C:\training\daily-training\Day-25\ATM Task\obj\Debug\netcoreapp3.1\ATM Task.dll
+C:\training\daily-training\Day-25\ATM Task\obj\Debug\netcoreapp3.1\ATM Task.pdb
+C:\training\daily-training\Day-25\ATM Task\obj\Debug\netcoreapp3.1\ATM Task.genruntimeconfig.cache
