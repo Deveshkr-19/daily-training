@@ -9,11 +9,9 @@ namespace ATM_Task.App
     {
         static void Main(string[] args)
         {
-            AppScreen.Welcome();
-            long cardNumber = Validator.Convert<long>("Your card number:");
-            Console.WriteLine($"Your card number is {cardNumber}");
-
-            Utility.PressEnterToContinue();
+            ATM_Task atmApp = new ATM_Task();
+            atmApp.InitializeData();
+            atmApp.Run();
         }
     }
 }
