@@ -1,3 +1,6 @@
 101 / Devesh / Software / 45000 / Male
 102 / Anjali / AI / 50000 / Female
 103 / Naina / Software / 50000 / Female
+104 / Mansi / CS / 50000 / Female
+105 / Mohit / Software / 40000 / Male
+106 / Mudit / AI / 50000 / Male

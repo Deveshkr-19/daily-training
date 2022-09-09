@@ -19,7 +19,7 @@ namespace Task_1
             string repeat = "Y";
             while (repeat.ToUpper() == "Y")
             {
-                Console.WriteLine("Enter the id of the employee");
+                Console.WriteLine("\nEnter the id of the employee");
                 emp.id = int.Parse(Console.ReadLine());
                 Console.WriteLine("Enter the name of the employee");
                 emp.name = Console.ReadLine();
@@ -36,7 +36,6 @@ namespace Task_1
                 con.Open();
                 insCmd.ExecuteNonQuery();
                 con.Close();
-                Console.WriteLine("Record inserted successfully!");
 
                 if(!File.Exists(empFile))
                     using (StreamWriter sw = File.CreateText(empFile))
@@ -49,6 +48,16 @@ namespace Task_1
                         sw.WriteLine($"{emp.id} / {emp.name} / {emp.department} / {emp.salary} / {emp.gender}");
                     }
 
+                Console.WriteLine("\n\nHere are the updated records:\n");
+
+                using (StreamReader sr = File.OpenText(empFile))
+                {
+                    string s = "";
+                    while ((s = sr.ReadLine()) != null)
+                    {
+                        Console.WriteLine(s);
+                    }
+                }
 
 
                 Console.WriteLine("Do you want to start again? (Y/N)");
