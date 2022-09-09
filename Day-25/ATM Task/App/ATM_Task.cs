@@ -13,6 +13,7 @@ namespace ATM_Task
         private List<UserAccount> userAccountList;
         private UserAccount selectedAccount;
         private List<Transaction> _listOfTransactions;
+        private const decimal minimumKeptAmount = 500;
 
         public void Run()
         {
@@ -90,7 +91,7 @@ namespace ATM_Task
                     PlaceDeposit();
                     break;
                 case (int)AppMenu.MakeWithdrawal:
-                    Console.WriteLine("Making withdrawal...");
+                    MakeWithdrawal();
                     break;
                 case (int)AppMenu.InternalTransfer:
                     Console.WriteLine("Making internal transfer...");
@@ -180,6 +181,30 @@ namespace ATM_Task
                 Utility.PrintMessage("Amount needs to be greater than zero. Try again", false);
                 return;
             }
+            if(transaction_amt % 500 != 0)
+            {
+                Utility.PrintMessage("You can only withdraw amount in multiples of 500 or 1000 rupees. Try again.", false);
+                return;
+            }
+
+            // Business logic validations
+            if(transaction_amt > selectedAccount.AccountBalance)
+            {
+                Utility.PrintMessage($"Withdrawal failed. Your balance is too low to withdraw {Utility.FormatAmount(transaction_amt)}", false);
+                return;
+            }
+            if((selectedAccount.AccountBalance - transaction_amt) < minimumKeptAmount)
+            {
+                Utility.PrintMessage($"Withdrawal failed. Your account needs to have minimum {Utility.FormatAmount(minimumKeptAmount)}", false);
+                return;
+            }
+            // Bind withdrawal details to transaction object
+            InsertTransaction(selectedAccount.Id, TransactionType.Withdrawal, -transaction_amt, "");
+            // Update account balance
+            selectedAccount.AccountBalance -= transaction_amt;
+            // Success message
+            Utility.PrintMessage($"You have successfully withdrawn {Utility.FormatAmount(transaction_amt)}", true);
+
         }
 
         private bool PreviewBankNotesCount(int amount)

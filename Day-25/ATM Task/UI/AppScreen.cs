@@ -85,41 +85,41 @@ namespace ATM_Task.UI
             Console.WriteLine(":0. Other", cur);
             Console.WriteLine("");
 
-            int selectedAmount = Validator.Convert<int>("Option:");
-            switch(selectedAmount)
+            int selectedAmount = Validator.Convert<int>("option:");
+            switch (selectedAmount)
             {
                 case 1:
                     return 500;
-                    break;
+                    //break;
                 case 2:
                     return 1000;
-                    break;
+                    //break;
                 case 3:
                     return 2000;
-                    break;
+                    //break;
                 case 4:
                     return 5000;
-                    break;
+                    //break;
                 case 5:
                     return 10000;
-                    break;
+                    //break;
                 case 6:
                     return 15000;
-                    break;
+                    //break;
                 case 7:
                     return 20000;
-                    break;
+                    //break;
                 case 8:
                     return 40000;
-                    break;
+                    //break;
                 case 0:
                     return 0;
-                    break;
+                    //break;
                 default:
                     Utility.PrintMessage("Invalid input. Try again.", false);
-                    selectedAmount();
+                    SelectAmount();
                     return -1;
-                    break;
+                    //break;
 
             }
         }
