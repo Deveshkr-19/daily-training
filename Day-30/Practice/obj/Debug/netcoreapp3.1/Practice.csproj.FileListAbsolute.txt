@@ -1,0 +1,14 @@
+C:\training\daily-training\Day-30\Practice\bin\Debug\netcoreapp3.1\Practice.exe
+C:\training\daily-training\Day-30\Practice\bin\Debug\netcoreapp3.1\Practice.deps.json
+C:\training\daily-training\Day-30\Practice\bin\Debug\netcoreapp3.1\Practice.runtimeconfig.json
+C:\training\daily-training\Day-30\Practice\bin\Debug\netcoreapp3.1\Practice.runtimeconfig.dev.json
+C:\training\daily-training\Day-30\Practice\bin\Debug\netcoreapp3.1\Practice.dll
+C:\training\daily-training\Day-30\Practice\bin\Debug\netcoreapp3.1\Practice.pdb
+C:\training\daily-training\Day-30\Practice\obj\Debug\netcoreapp3.1\Practice.csproj.AssemblyReference.cache
+C:\training\daily-training\Day-30\Practice\obj\Debug\netcoreapp3.1\Practice.GeneratedMSBuildEditorConfig.editorconfig
+C:\training\daily-training\Day-30\Practice\obj\Debug\netcoreapp3.1\Practice.AssemblyInfoInputs.cache
+C:\training\daily-training\Day-30\Practice\obj\Debug\netcoreapp3.1\Practice.AssemblyInfo.cs
+C:\training\daily-training\Day-30\Practice\obj\Debug\netcoreapp3.1\Practice.csproj.CoreCompileInputs.cache
+C:\training\daily-training\Day-30\Practice\obj\Debug\netcoreapp3.1\Practice.dll
+C:\training\daily-training\Day-30\Practice\obj\Debug\netcoreapp3.1\Practice.pdb
+C:\training\daily-training\Day-30\Practice\obj\Debug\netcoreapp3.1\Practice.genruntimeconfig.cache
