@@ -1,0 +1,14 @@
+C:\training\daily-training\Day-32\ThreadingPractice\bin\Debug\netcoreapp3.1\ThreadingPractice.exe
+C:\training\daily-training\Day-32\ThreadingPractice\bin\Debug\netcoreapp3.1\ThreadingPractice.deps.json
+C:\training\daily-training\Day-32\ThreadingPractice\bin\Debug\netcoreapp3.1\ThreadingPractice.runtimeconfig.json
+C:\training\daily-training\Day-32\ThreadingPractice\bin\Debug\netcoreapp3.1\ThreadingPractice.runtimeconfig.dev.json
+C:\training\daily-training\Day-32\ThreadingPractice\bin\Debug\netcoreapp3.1\ThreadingPractice.dll
+C:\training\daily-training\Day-32\ThreadingPractice\bin\Debug\netcoreapp3.1\ThreadingPractice.pdb
+C:\training\daily-training\Day-32\ThreadingPractice\obj\Debug\netcoreapp3.1\ThreadingPractice.csproj.AssemblyReference.cache
+C:\training\daily-training\Day-32\ThreadingPractice\obj\Debug\netcoreapp3.1\ThreadingPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\training\daily-training\Day-32\ThreadingPractice\obj\Debug\netcoreapp3.1\ThreadingPractice.AssemblyInfoInputs.cache
+C:\training\daily-training\Day-32\ThreadingPractice\obj\Debug\netcoreapp3.1\ThreadingPractice.AssemblyInfo.cs
+C:\training\daily-training\Day-32\ThreadingPractice\obj\Debug\netcoreapp3.1\ThreadingPractice.csproj.CoreCompileInputs.cache
+C:\training\daily-training\Day-32\ThreadingPractice\obj\Debug\netcoreapp3.1\ThreadingPractice.dll
+C:\training\daily-training\Day-32\ThreadingPractice\obj\Debug\netcoreapp3.1\ThreadingPractice.pdb
+C:\training\daily-training\Day-32\ThreadingPractice\obj\Debug\netcoreapp3.1\ThreadingPractice.genruntimeconfig.cache
