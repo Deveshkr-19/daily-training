@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Nunito", sans-serif;
+}
+.wrapper {
+	background: rgb(245, 235, 235);
+	min-height: 100vh;
+	display: flex;
+}
+
+/* Nav styling */
+
+.wrapper nav {
+	display: flex;
+	max-width: 280px;
+	min-width: max-content;
+	width: 100%;
+	flex-direction: column;
+	box-shadow: 10px 0 20px 2px rgb(212, 212, 233);
+	height: 100vh;
+	position: sticky;
+	top: 0;
+}
+nav .brand {
+	margin: 30px auto;
+	font-size: 24px;
+	font-weight: 700;
+	padding: 10px;
+	border-radius: 10px;
+	color: #130f40;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+nav .brand .brand-tone {
+	color: #ff7800;
+}
+hr {
+	margin: 0 20px 40px 20px;
+	border: 1px solid #ccc1b9;
+}
+nav .items {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+}
+nav .items .item {
+	padding: 7px 25px;
+	font-size: 18px;
+	font-weight: 500;
+	color: #130f40;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+nav .items .active,
+nav .items .item:hover {
+	background: #d1caca;
+}
+
+/* Gallery styling */
+
+.container {
+	margin: 60px;
+	margin-bottom: 8px;
+}
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 30px;
+}
+.gallery .image {
+	padding: 7px;
+	width: 25%;
+}
+.gallery .image span {
+	display: flex;
+	width: 100%;
+	overflow: hidden;
+	border-radius: 10px;
+}
+.gallery .image img {
+	width: 100%;
+	vertical-align: middle;
+	transition: all 0.3s ease;
+}
+.gallery .image img:hover {
+	transform: scale(1.05, 1.05);
+}
