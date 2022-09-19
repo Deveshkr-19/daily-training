@@ -50,7 +50,7 @@ nav .items {
 nav .items .item {
 	padding: 7px 25px;
 	font-size: 18px;
-	font-weight: 500;
+	font-weight: 600;
 	color: #130f40;
 	cursor: pointer;
 	transition: all 0.3s ease;
@@ -65,27 +65,114 @@ nav .items .item:hover {
 .container {
 	margin: 60px;
 	margin-bottom: 8px;
+	width: 100%;
 }
 .gallery {
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: 30px;
+	justify-content: space-around;
 }
 .gallery .image {
-	padding: 7px;
-	width: 25%;
+	margin: 15px 0;
+	width: 30%;
+	overflow: hidden;
+	height: 175px;
+	cursor: pointer;
+}
+.gallery .image.hide {
+	display: none;
+}
+.gallery .image.show {
+	animation: animate 0.3s ease-in;
+}
+@keyframes animate {
+	0% {
+		transform: scale(0.5);
+	}
+	100% {
+		transform: scale(1);
+	}
 }
 .gallery .image span {
 	display: flex;
 	width: 100%;
 	overflow: hidden;
 	border-radius: 10px;
+	height: 175px;
 }
 .gallery .image img {
 	width: 100%;
 	vertical-align: middle;
-	transition: all 0.3s ease;
+	transition: all 0.2s ease;
+	border-radius: 10px;
 }
 .gallery .image img:hover {
 	transform: scale(1.05, 1.05);
+}
+
+/* Image preview styling */
+
+.preview-box {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	background: #ff7800;
+	transform: translate(-50%, -50%);
+	max-width: 600px;
+	width: 100%;
+	box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	padding: 5px;
+	opacity: 0;
+	z-index: 1;
+	pointer-events: none;
+	transition: all 0.4s ease;
+}
+.preview-box.show {
+	opacity: 1;
+	pointer-events: auto;
+}
+.preview-box .details {
+	color: #130f40;
+	display: flex;
+	justify-content: space-between;
+	padding: 12px;
+	align-items: center;
+}
+.preview-box .details .title {
+	font-size: 18px;
+	font-weight: 400;
+}
+.details .title span {
+	text-transform: uppercase;
+	margin-left: 5px;
+	font-weight: 600;
+	/* text-decoration: dashed underline navy; */
+}
+.details .icon {
+	font-size: 22px;
+	cursor: pointer;
+}
+.preview-box .image-box {
+	display: flex;
+	width: 100%;
+}
+.image-box img {
+	width: 100%;
+	border-radius: 0 0 10px 10px;
+}
+
+.shadow {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.2);
+	z-index: 0;
+	display: none;
+}
+.shadow.show {
+	display: block;
 }
